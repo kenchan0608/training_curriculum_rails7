@@ -10,7 +10,7 @@
   <% @week_days.each do |day| %>
     <div class='item'>
       <div class='date'>
-        <%= "#{day[:month]}/#{day[:date]}" %> 
+        <%= "#{day[:month]}/#{day[:date]} #{day[:wday]}" %> 
         <%# なぜか最初から表示されてました。 %>
       </div>
         <ul class='content'>
